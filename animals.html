@@ -34,15 +34,69 @@
   </div><br>
   <p>Animals row with class col-md breaks first. At exactly 767.20px the animals row is breaking</p>
 </div>
-<div>
-  <img src="Elephant.jpg" height=250; width=250>
-  <img src="Lion.jpg"height=250; width=250>
-  <img src="Gorilla.jpg"height=250; width=250>
+<div class="container">
+ <div class="d-flex justify-content-between">
+  <img src="Elephant.jpg" height="400px"; width="400px" class="img-fluid">
+  <img src="Lion.jpg" height="400px"; width="400px" class="img-fluid">
+  <img src="Gorilla.jpg" height="400px"; width="400px" class="img-fluid">
+ </div>
 </div>
-<div>
-  <img src="Elephant.jpg" class="img-thumbnail">
-  <img src="Lion.jpg" class="img-thumbnail">
-  <img src="Gorilla.jpg" class="img-thumbnail">
+<div class="container">
+  <div class="d-flex justify-content-between">
+    <img src="Elephant.jpg" class="img-thumbnail img-fluid" width="400px" height="400px">
+    <img src="Lion.jpg" class="img-thumbnail img-fluid" width="400px" height="400px">
+    <img src="Gorilla.jpg" class="img-thumbnail img-fluid" width="400px" height="400px">
+  </div>
 </div>
+<br>
+<table class="table table-bordered table-hover table-sm table-striped" style="width: 100%;">
+  <thread style="text-align: left; border: 2px; font-size: 20px;">
+      <tr style="border: 2px; text-align: center; background-color:brown; color: white;">
+        <th scope="col">Letter</th>
+        <th scope="col">Animal</th>
+        <th scope="col">City</th>
+        <th scope="col">Car</th>
+      </tr>  
+  </thread>
+  <tbody style="text-align: center; border: 2px; width: 60%;">
+      <tr style="border: 2px; text-align: center;" class="table-primary">
+        <th scope="row" style="text-align: center; color:darkblue">B</th>
+        <td>Baboon</td>
+        <td>Baltimore</td>
+        <td>BMW</td>
+      </tr>
+      <tr class="table-secondary" style="border: 2px; color:darkblue">
+        <th scope="row" style="text-align: center;">H</th>
+        <td>Horse</td>
+        <td>Huntsville</td>
+        <td>Honda</td>
+      </tr>
+      <tr class="table-success" style="border: 2px;color:darkblue">
+        <th scope="row" style="text-align: center;">O</th>
+        <td>Otter</td>
+        <td>Oakland</td>
+        <td>Osca</td>
+      </tr>
+      <tr class="table-warning" style="border: 2px;color:darkblue">
+        <th scope="row" style="text-align: center;">G</th>
+        <td>Goat</td>
+        <td>Greenville</td>
+        <td>Geely</td>
+      </tr>
+      <tr class="table-info" style="border: 2px;color:darkblue">
+        <th scope="row" style="text-align: center;">I</th>
+        <td>Iguana</td>
+        <td>Irvine</td>
+        <td>Icona</td>
+      </tr>
+      <tr class="table-danger " style="border: 2px;color:darkblue">
+        <th scope="row" style="text-align: center;">R</th>
+        <td>Rat</td>
+        <td>Riverside</td>
+        <td>Renault</td>
+      </tr>
+  </tbody>
+</table>
+<br>
 </body>
 </html>
